@@ -1,0 +1,39 @@
+<!--
+ * @Author: ssq
+ * @Date: 2022-12-06 09:20:01
+ * @LastEditors: ssq
+ * @LastEditTime: 2023-01-03 14:15:33
+ * @FilePath: \3d-web\public\index.html
+ * @Description:
+ *
+ * Copyright (c) 2023 by hydp, All Rights Reserved.
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <script type="text/javascript" src="<%= BASE_URL %>index.js"></script>
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+  <script>
+    window.apiURL = apiURL
+    window.resourceUrl = resourceUrl
+    window.designUrl = designUrl
+    window.mapTypes = mapTypes
+  </script>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but vms doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

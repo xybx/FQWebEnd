@@ -1,0 +1,13 @@
+.icondialog{
+  .el-dialog{
+    .el-dialog__body{
+      .el-form{
+        .el-form-item{
+          .el-input,.el-input-number{
+            width:100%;
+          }
+        }
+      }
+    }
+  }
+}

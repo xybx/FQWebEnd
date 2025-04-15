@@ -1,0 +1,192 @@
+.el-container {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+
+
+    .el-header {
+        height: 10vh !important;
+        padding: 8px;
+        box-sizing: border-box;
+
+        .el-form {
+            ::v-deep .el-input__inner {
+                width: 15vmax !important;
+            }
+
+            .el-form-item:nth-child(1) {
+                width: 25%;
+            }
+
+            .el-form-item:nth-child(2) {
+                width: 25%;
+            }
+
+            .el-form-item:nth-child(3) {
+                width: 25%;
+            }
+
+            .el-form-item:nth-child(5) {
+                width: 25%;
+            }
+
+            .el-form-item:nth-child(6) {
+                width: 25%;
+            }
+
+            .el-form-item:nth-child(7) {
+                width: 25%;
+            }
+        }
+
+        .el-button {
+            background-color: #4484E8;
+            color: #FFFFFF;
+        }
+    }
+
+    .el-main {
+        position: relative;
+
+        .btn {
+            margin-bottom: 1rem;
+        }
+
+        .el-pagination {
+            position: absolute;
+            bottom: 1vh;
+            right: 2vw;
+        }
+
+        .add {
+            background-color: #409eff;
+            color: #FFFFFF;
+        }
+
+        .transimit {
+            background-color: #48914D;
+            color: #FFFFFF;
+        }
+
+        .repeal {
+            background-color: #4A7EA6;
+            color: #FFFFFF;
+        }
+
+    }
+
+    ::v-deep .set-dialog {
+        .el-dialog__header {
+            padding: 6px !important;
+            padding-left: 20px !important;
+            border-bottom: 1px solid #d7d7d7;
+            background: #324157;
+
+            .el-dialog__title {
+                color: #fff;
+                letter-spacing: 2px;
+            }
+
+            .el-dialog__headerbtn {
+                top: 10px !important;
+
+                .el-dialog__close {
+                    color: #fff;
+                }
+            }
+        }
+
+        .el-dialog__body {
+            padding: 15px !important;
+
+            .el-form-item__content {
+                display: flex;
+                justify-content: space-between;
+
+                .el-select {
+                    width: 60%;
+                    margin-right: 1rem;
+                }
+            }
+
+        }
+
+        .el-dialog__footer {
+            text-align: center;
+
+            .el-button:nth-child(1) {
+                background-color: #dcd685;
+                color: #FFFFFF;
+            }
+
+            .el-button:nth-child(3) {
+                background-color: #dcd685;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    ::v-deep .quill-editor {
+        padding: 0;
+
+        .ql-container {
+            height: 200px;
+            min-height: auto;
+        }
+
+        .ql-picker.ql-size .ql-picker-label::before,
+        .ql-picker.ql-size .ql-picker-item::before {
+            content: '14px';
+        }
+
+        .ql-picker.ql-size .ql-picker-label[data-value='small']::before,
+        .ql-picker.ql-size .ql-picker-item[data-value='small']::before {
+            content: '10px';
+        }
+
+        .ql-picker.ql-size .ql-picker-label[data-value='large']::before,
+        .ql-picker.ql-size .ql-picker-item[data-value='large']::before {
+            content: '18px';
+        }
+
+        .ql-picker.ql-size .ql-picker-label[data-value='huge']::before,
+        .ql-picker.ql-size .ql-picker-item[data-value='huge']::before {
+            content: '32px';
+        }
+
+        .ql-picker.ql-header .ql-picker-label::before,
+        .ql-picker.ql-header .ql-picker-item::before {
+            content: '文本';
+        }
+
+        .ql-picker.ql-header .ql-picker-label[data-value='1']::before,
+        .ql-picker.ql-header .ql-picker-item[data-value='1']::before {
+            content: '标题1';
+        }
+
+        .ql-picker.ql-header .ql-picker-label[data-value='2']::before,
+        .ql-picker.ql-header .ql-picker-item[data-value='2']::before {
+            content: '标题2';
+        }
+
+        .ql-picker.ql-header .ql-picker-label[data-value='3']::before,
+        .ql-picker.ql-header .ql-picker-item[data-value='3']::before {
+            content: '标题3';
+        }
+
+        .ql-picker.ql-header .ql-picker-label[data-value='4']::before,
+        .ql-picker.ql-header .ql-picker-item[data-value='4']::before {
+            content: '标题4';
+        }
+
+        .ql-picker.ql-header .ql-picker-label[data-value='5']::before,
+        .ql-picker.ql-header .ql-picker-item[data-value='5']::before {
+            content: '标题5';
+        }
+
+        .ql-picker.ql-header .ql-picker-label[data-value='6']::before,
+        .ql-picker.ql-header .ql-picker-item[data-value='6']::before {
+            content: '标题6';
+        }
+    }
+}
